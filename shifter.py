@@ -23,7 +23,7 @@ class Shifter:
         GPIO.output(p,0)
         
 shifter_obj=Shifter(23,25,24)
-shifter_obj.shiftByte(7)
+shifter_obj.shiftByte(8)
         
     #GPIO.output(latchPin, 1) # ping the latch pin to send register to output
     #time.sleep(0)
