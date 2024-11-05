@@ -15,7 +15,7 @@ print(l[randomval])
 # GPIO.setup(self.latchPin, GPIO.OUT, initial=0) # start latch & clock low
 # GPIO.setup(self.clockPin, GPIO.OUT, initial=0)
 shifter_obj=Shifter(23,25,24)
-#shifter_obj.shiftByte(randomval)
+shifter_obj.shiftByte(randomval)
   
 
 try:
