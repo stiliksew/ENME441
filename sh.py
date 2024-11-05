@@ -20,8 +20,8 @@ shifter_obj.shiftByte(randomval)
 
 try:
     while 1:
-        # move=random.choice([-1,1])
-        # randomval+=move
+        move=random.choice([-1,1])
+        randomval+=move
         # if randomval==8:
         #     randomval==6
         # if randomval==-1:
